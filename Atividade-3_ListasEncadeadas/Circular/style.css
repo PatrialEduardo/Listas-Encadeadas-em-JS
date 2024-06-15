@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 20px 20px 500px;
+    grid-template-columns: 527px;
+    background-color: white;
+    border-radius: 30px;
+    border: 4px 4px 4px 4px black;
+    gap: 10px;
+    box-shadow: 0px 5px 5px 5px gray;
+}
+
+input{
+    width: 60%;
+    margin-left: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+}
+
+button{
+    width: 40%;
+    margin-left: 32%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    transition: 300ms;
+}
+
+button:hover{
+    background-color: rgb(255, 248, 239);
+    color: rgb(41, 41, 41);
+    box-shadow: 0px 2px 3px 0px rgb(73, 73, 73);
+}
+
+h1{
+    text-align: center;
+    color: #242424;
+}
+.list-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.node {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.node button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: none;
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+}
+.head, .tail {
+    color: whitesmoke;
+    background-color: gray;
+}
